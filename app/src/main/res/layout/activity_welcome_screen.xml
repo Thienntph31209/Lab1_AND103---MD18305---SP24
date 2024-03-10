@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    tools:context=".Welcome_Screen">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firebase"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập bằng google"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/gmail"
+        android:layout_marginHorizontal="10dp"
+        android:padding="15dp"
+        android:drawablePadding="28dp"
+        android:backgroundTint="#ff7f50"
+        android:id="@+id/btnLoginGoogle"/>
+
+    <Button
+        android:id="@+id/btnLoginPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập bằng số điện thoại"
+        android:drawableLeft="@drawable/phone"
+        android:layout_marginHorizontal="10dp"
+        android:padding="15dp"
+        android:backgroundTint="#08a045"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
